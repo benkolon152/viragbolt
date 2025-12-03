@@ -27,7 +27,7 @@ header {
 #logo {
 	position: absolute;
 	top: 14px;
-	right: 2%;
+    left: 2%;
 	border-radius: 50%;
     width: 88px;
 }
@@ -103,6 +103,7 @@ footer ul li {
 
 .arukep img:hover {    
     cursor: pointer;
+    box-shadow: 2px 2px 20px black;
 }
 
 .arukep {
@@ -128,4 +129,21 @@ input {
   header h2 {
     display: none;
   }
+}
+
+#nyito {
+    background-image: url(fokep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: left;
+    }
+}
+
+#logo:hover {
+    cursor: pointer;
 }
